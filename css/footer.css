@@ -1,0 +1,10 @@
+#rodape{
+    background-color: rgb(48, 48, 48);
+    margin-top: 400px;
+}
+#rodape p{
+    padding: 70px;
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+}

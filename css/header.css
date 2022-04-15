@@ -1,0 +1,19 @@
+#barra_nav{
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    word-spacing: 50px;
+    font-size: 15pt;
+    padding: 15px;
+}
+#barra_nav a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#barra_nav a:hover{
+    color: rgb(175, 175, 175);
+}
+#barra_nav li{
+    display: inline;
+    list-style: none;
+}
