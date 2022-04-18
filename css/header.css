@@ -1,9 +1,36 @@
 .modal {
-    width: 300px;
-  }
-  .modal-content {
-    width: 300px;
-  }
-  .list-group-item:hover {
-    background-color: rgba(59, 57, 57, 0.164) !important;
-  }
+  width: 220px;
+}
+.modal-content {
+  width: 220px;
+  background-color: rgb(37, 37, 37);
+}
+.list-group-item:hover {
+  background-color: rgba(59, 57, 57, 0.164) !important;
+}
+#title_name {
+  color: white;
+  margin: 0 auto;
+}
+.menu_lista {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  list-style: none;
+}
+.lista_base a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+.lista_base li:hover {
+  color: rgb(167, 167, 167);
+}
+.lista_base hr {
+  color: white;
+}
+.lista_base i {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.icon_menu {
+  padding-left: 10px;
+}

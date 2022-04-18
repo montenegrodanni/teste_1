@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/geral.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!--Bootstrap JS-->
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js" defer></script>
+    <!--Bootstrap ICON-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>BLOG M&D</title>
 </head>
 
@@ -24,6 +24,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <i class="bi bi-list"></i>
                 </button>
+                <h1 id="title_name">BLOG M&D</h1>
             </div>
         </nav>
 
@@ -31,37 +32,43 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-list"></i> MENU</h5>
+                        <h5 class="modal-title text-light" id="exampleModalLabel"><i class="icon_menu bi bi-list"></i> MENU</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <ul class="list-group list-group-flush">
+                        <ul class="lista_base list-group list-group-flush">
                             <a href="#">
-                                <li class="list-group-item"><i class="bi bi-house-fill"></i>
+                                <li class="menu_lista group-item"><i class="bi bi-house-fill"></i>
                                     Início</li>
                             </a>
+                            <hr>
                             <a href="#">
-                                <li class="list-group-item"><i class="bi bi-search"></i>
+                                <li class="menu_lista group-item"><i class="bi bi-search"></i>
                                     Consulta</li>
                             </a>
+                            <hr>
                             <a href="#">
-                                <li class="list-group-item"><i class="bi bi-person-plus-fill"></i>
+                                <li class="menu_lista group-item"><i class="bi bi-person-plus-fill"></i>
                                     Adicionar</li>
                             </a>
+                            <hr>
                             <a href="#">
-                                <li class="list-group-item"><i class="bi bi-person-lines-fill"></i>
+                                <li class="menu_lista group-item"><i class="bi bi-person-lines-fill"></i>
                                     Alterar</li>
                             </a>
+                            <hr>
                             <a href="#">
-                                <li class="list-group-item"><i class="bi bi-person-x-fill"></i>
+                                <li class="menu_lista group-item"><i class="bi bi-person-x-fill"></i>
                                     Excluir</li>
                             </a>
+                            <hr>
                             <a href="#">
-                                <li class="list-group-item"><i class="bi bi-gear-fill"></i>
+                                <li class="menu_lista group-item"><i class="bi bi-gear-fill"></i>
                                     Configurações</li>
                             </a>
+                            <hr>
                             <a href="#">
-                                <li class="list-group-item"><i class="bi bi-box-arrow-left"></i>
+                                <li class="menu_lista group-item"><i class="bi bi-box-arrow-left"></i>
                                     Sair</li>
                             </a>
                         </ul>
@@ -73,5 +80,5 @@
             </div>
         </div>
 
-        
+
     </header>
