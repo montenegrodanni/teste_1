@@ -22,11 +22,8 @@
         <nav class="navbar navbar-dark bg-dark shadow">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <i class="icone_nav bi bi-list"></i>
+                    <i class="bi bi-list"></i>
                 </button>
-                <a class="link_title" href="index.php">
-                    <h1>Agenda</h1>
-                </a>
             </div>
         </nav>
 
@@ -34,39 +31,38 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title text-light id=" exampleModalLabel><i class="icon_title_menu bi bi-list"></i>Menu</h5>
-                        <button class="btn_x" type="button" data-bs-dismiss="modal">
-                            <i class="bi bi-x"></i>
-                        </button>
+                        <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-list"></i> MENU</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <ul class="list-group list-group-flush">
-                            <a href="index.php">
-                                <li><i class="icone_menu bi bi-house-fill"></i>Início</li>
-                            </a>
-                            <hr>
-                            <a href="consultar.php">
-                                <li><i class="icone_menu bi bi-search"></i>Consultar</li>
-                            </a>
-                            <hr>
                             <a href="#">
-                                <li><i class="icone_menu bi bi-person-plus-fill"></i>Cadastrar</li>
+                                <li class="list-group-item"><i class="bi bi-house-fill"></i>
+                                    Início</li>
                             </a>
-                            <hr>
                             <a href="#">
-                                <li><i class="icone_menu bi bi-person-lines-fill"></i>Alterar</li>
+                                <li class="list-group-item"><i class="bi bi-search"></i>
+                                    Consulta</li>
                             </a>
-                            <hr>
                             <a href="#">
-                                <li><i class="icone_menu bi bi-person-x-fill"></i>Excluir</li>
+                                <li class="list-group-item"><i class="bi bi-person-plus-fill"></i>
+                                    Adicionar</li>
                             </a>
-                            <hr>
                             <a href="#">
-                                <li><i class="icone_menu bi bi-gear-fill"></i>Configurações</li>
+                                <li class="list-group-item"><i class="bi bi-person-lines-fill"></i>
+                                    Alterar</li>
                             </a>
-                            <hr>
                             <a href="#">
-                                <li><i class="icone_menu bi bi-box-arrow-left"></i>Sair</li>
+                                <li class="list-group-item"><i class="bi bi-person-x-fill"></i>
+                                    Excluir</li>
+                            </a>
+                            <a href="#">
+                                <li class="list-group-item"><i class="bi bi-gear-fill"></i>
+                                    Configurações</li>
+                            </a>
+                            <a href="#">
+                                <li class="list-group-item"><i class="bi bi-box-arrow-left"></i>
+                                    Sair</li>
                             </a>
                         </ul>
                     </div>
@@ -76,3 +72,6 @@
                 </div>
             </div>
         </div>
+
+        
+    </header>
