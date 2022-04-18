@@ -1,12 +1,9 @@
 <?php
-include_once("templates/header.php");
+include_once("templates/header.php"); /*/ Usada para separar pastas, não esquecer nome da extensão*/
 ?>
 
-<main id="main_index">
-    <img class="banner" src="img/banner.jpg">
-    <h1>CONTEUDO 1</h1>
-    <h1>CONTEUDO 2</h1>
-    <h1>CONTEUDO 3</h1>
+<main>
+
 </main>
 
 <?php

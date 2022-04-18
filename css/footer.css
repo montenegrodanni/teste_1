@@ -1,10 +1,10 @@
 #rodape{
-    background-color: rgb(48, 48, 48);
-    margin-top: 400px;
+    background-color: rgb(48, 48, 48); /*Cor de Fundo*/
+    margin-top: 400px; /*Margem em cima*/
 }
 #rodape p{
-    padding: 70px;
+    padding: 70px; /*Espaçamento interno*/
     color: white;
-    font-size: 15pt;
-    text-align: center;
+    font-size: 15pt; /*Tamanho da fonte*/
+    text-align: center; /*Alinhamento de texto - Centro*/
 }
